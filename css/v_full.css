@@ -38,11 +38,11 @@ header h1 a { color:#121212;font-family:righteous;font-size:30px;}
 #banner{position:relative;}
 #banner button {position:absolute; top:50%; z-index: 999; width:35px;
               height:35px; border-radius: 100%; background: rgba(0,0,0,0.4);
-              border:none; outline: none;transform: translateY(-50%);}
+              border:none!important;; outline: none;transform: translateY(-50%);}
               #banner button::before {font-family: "xeicon";color:#fff; font-size: 20px;}
-#banner button.slick-prev {left:50px; font-size: 0; color:transparent;}
+#banner button.slick-prev {left:50px; font-size: 0; color: transparent!important;}
 #banner button.slick-prev:before {content:"\e93d";}
-#banner button.slick-next {right:50px;font-size:0; color:transparent;}
+#banner button.slick-next {right:50px;font-size:0; color:transparent!important;}
 #banner button.slick-next:before {content:"\e940";}
 #banner {width:100%;}
 
